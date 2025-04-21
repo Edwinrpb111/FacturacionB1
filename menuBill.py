@@ -195,7 +195,7 @@ while opc !='4':
         while opc3 !='5':
             borrarPantalla()
             sales = CrudSales()
-            menu_sales = Menu("Menu Ventas",["1) Registro Venta","2) Consultar","3) Modificar","4) Eliminar","5) Salir"],20,10)
+            menu_sales = Menu(reset_color+"Menu Ventas",["1) Registro Venta","2) Consultar","3) Modificar","4) Eliminar","5) Salir"],20,10)
             opc3 = menu_sales.menu()
             if opc3 == "1":
                 sales.create()
