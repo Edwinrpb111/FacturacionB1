@@ -199,6 +199,7 @@ while opc !='4':
             opc3 = menu_sales.menu()
             if opc3 == "1":
                 sales.create()
+                print("Regresando al menu Ventas...")
                 
             elif opc3 == "2":
                 sales.consult()
